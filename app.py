@@ -3,8 +3,8 @@ import numpy as np
 import pickle
 import os
 
-st.title("🏦 Loan Eligibility Prediction System")
-st.write("Enter applicant details below:")
+st.title(" Pragati Bank ")
+st.write("Enter applicant details")
 
 # File paths
 model_path = "loan_model.pkl"
@@ -25,7 +25,7 @@ try:
     with open(scaler_path, "rb") as f:
         scaler = pickle.load(f)
 
-    st.success("✅ Model loaded successfully")
+    
 
 except Exception as e:
     st.error(f"❌ Error loading model: {e}")
