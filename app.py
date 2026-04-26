@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import os
 
-st.title(" Pragati Bank ")
+st.title("Banking system")
 st.write("Enter applicant details")
 
 # File paths
